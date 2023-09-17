@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personality Prediction</title>
+</head>
+<body>
+    <h1>Personality Prediction</h1>
+    <form method="POST" action="/predict">
+        <label for="description">Description:</label>
+        <input type="text" name="description" required><br><br>
+        <label for="followers_count">Followers Count:</label>
+        <input type="number" name="followers_count" required><br><br>
+        <label for="friends_count">Friends Count:</label>
+        <input type="number" name="friends_count" required><br><br>
+        <label for="favourites_count">Favourites Count:</label>
+        <input type="number" name="favourites_count" required><br><br>
+        <label for="total_favorite_count">Total Favorite Count:</label>
+        <input type="number" name="total_favorite_count" required><br><br>
+        <label for="total_mentions_count">Total Mentions Count:</label>
+        <input type="number" name="total_mentions_count" required><br><br>
+        <label for="total_media_count">Total Media Count:</label>
+        <input type="number" name="total_media_count" required><br><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
