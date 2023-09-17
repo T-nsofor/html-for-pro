@@ -8,18 +8,18 @@ body {
     background-color: #000000;
 }
 
-nav ul {
+base-nav ul {
     display: flex;
     justify-content: space-between;
     margin: 2rem 4rem 3rem 4rem;
     font-family: 'Poppins';
 }
 
-nav ul li {
+base-nav ul li {
     list-style-type: none;
 }
 
-nav ul li a {
+base-nav ul li a {
     font-family: 'Poppins';
     text-decoration: none;
     font-weight: 600;
