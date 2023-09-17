@@ -30,9 +30,3 @@ nav ul li a {
 nav ul li a:hover {
     color: #1DA1F2;
 }
-
-.content {
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem;
-}
